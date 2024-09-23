@@ -2,6 +2,7 @@
   "name": "tapcards",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "next build",
     "deploy": "next build && next export",

@@ -1,8 +1,6 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    outDir: 'dist',
+};
 
 export default nextConfig;
-
-module.exports = {
-    outDir: 'dist',
-  };
